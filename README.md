@@ -11,8 +11,8 @@ This project was developed for the **Adaptive Computation and Machine Learning (
 ---
 
 ## 👥 Authors
-* **Mashego Mabeloane** (Student Number: 2654606)
-* **Dolf Shungube** (Student Number: 2683067)
+* **Mashego Mabeloane**
+* **Dolf Shungube** 
 * *University of the Witwatersrand — May 2026*
 
 ---
