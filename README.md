@@ -39,6 +39,19 @@ Features were analyzed using a Chi-Square test and grouped into priority tiers b
 
 ---
 
+## 🤖 Model Architectures
+
+### 1. Classical Baseline: Random Forest
+* Configured with `n_estimators=100`.
+* Evaluated across two feature configurations (Tier 1 features only vs. Tier 1 + Tier 2 features combined).
+
+### 2. Deep Learning: Dense Neural Network (MLP)
+Built using Keras, utilizing categorical embedding layers to capture the categorical interplay of the features, followed by fully connected `Dense` layers with Dropout regularization (0.3) to prevent overfitting.
+
+![Deep Neural Network Architecture](./Deep-neural-network-DNN-This-is-a-graphical-representation-of-a-standard-feedforward.png)
+
+---
+
 ## 🏆 Final Performance Matrix
 
 The performance metrics of our final model variations evaluated on the unseen **Test Split**:
@@ -59,7 +72,8 @@ The performance metrics of our final model variations evaluated on the unseen **
 ## 📁 Repository Structure
 
 ```text
-├── Data/                       # Raw and preprocessed dataset files
-├── Notebooks/                  # Jupyter notebooks containing experiments
+├── Data/                       # Raw and preprocessed dataset files
+├── Notebooks/                  # Jupyter notebooks containing experiments
 ├── Machine_Learning_Report.pdf # Full academic project report and analysis
-└── README.md                   # Project summary (this file)
+├── Deep-neural-network-DNN-This-is-a-graphical-representation-of-a-standard-feedforward.png # Architecture diagram
+└── README.md                   # Project summary (this file)
